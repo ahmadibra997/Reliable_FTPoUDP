@@ -1,0 +1,4 @@
+in commmand window use this to run all the codes
+
+
+make run-both

@@ -1,0 +1,10 @@
+* Run the receiver:
+`python Receiver.py <loss-probability>`
+'''
+PS. 'receiver.py' must be executed before 'sender.py'
+
+
+<loss-probability>: this value is needed to do simulation of how windowing protocol works
+
+Example:
+python Receiver.py 0.05

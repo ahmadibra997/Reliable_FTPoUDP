@@ -1,0 +1,14 @@
+* Run the sender:
+'''
+PS. 'sender.py' must be executed after 'receiver.py'
+
+` python Sender.py <receiver-ip> <receiver-port> <sender-port>  <window-size> <timeout> <file-to-send>`
+Where:
+<receiver-ip>: set the receiver ip
+<receiver-port>: set receiver port
+<window-size>: set the window size of implemented Go-back-N windowing protocol
+<timeout>: set the timeout duration
+<file-to-send>: the name of the file to be sent 
+
+Example:
+python Sender.py 127.0.0.1 6500 6000 10 1 test.jpg
